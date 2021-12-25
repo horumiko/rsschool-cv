@@ -1,13 +1,13 @@
-# Hanna Voloshyna
+# Uladzislau Roslikau
 ### Junior Frontend Developer
 
 ---
 
 ### Contact information:
 
-**Phone:**<br>
-**E-mail:**<br>
-**Telegram:**<br>
+**E-mail:** uladzislau.rosgro@yandex.ru<br>
+**Telegram:** @horumiko<br>
+[LinkedIn](https://www.linkedin.com/in/uladzislau-roslikau-6316191b4/)<br>
 
 ---
 
