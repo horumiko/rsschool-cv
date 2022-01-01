@@ -1,3 +1,200 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Urbanist');
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
     margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Urbanist', sans-serif;
+    font-weight:200;
+    color: #2F4F4F;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    
+    box-shadow: black;
+
+    height: 1400px;
+    width: 1200px;
+}
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 1200px;
+    background-color: #ff6e40;
+    color: #f5f0e1;
+}
+nav > ul > li{
+    display: inline;
+    margin: 0;
+    font-size: 26px;
+
+    margin: 10px;
+}
+
+nav > ul{
+    margin: 0;
+    padding: 0;
+}
+.block_2{
+    display:flex;
+    flex-direction: column;
+    background-color: #f5f0e1;
+    color: #1e3d59;
+
+    width: 800px;
+}
+
+.block_2 > h1{
+    text-align: center;
+}
+.block_1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+    width: 400px;
+    padding-top: 50px;
+    color: #f5f0e1;
+    background-color: #1e3d59;
+}
+
+.photo {
+    padding-top: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.photo > a > img{
+    margin: 5px;
+}
+.contacts{
+    padding-bottom: 55px;
+}
+
+.contacts > h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+.contacts > ul > li> p > img{
+    margin: 5px;
+}
+
+.contacts > ul > li> p{
+    font-size: 20px;
+    font-weight: 300;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff6e40;
+    width: 1200px;
+}
+
+.footerInfo{
+    text-align: right;
+    text-decoration: none;
+}
+.myPhoto{
+   width: 250px; height: 250px;
+   border: 7px  solid #f5f0e1;
+   border-radius: 50%; 
+   background: url(img/me.jpg) no-repeat;
+   background-size: 250px 330px; 
+}
+
+.blockText{
+    text-align: left;
+    font-size: 18px;
+    margin: 8px;
+    width: 700px;
+    height: 120px;
+}
+
+.education{
+    height: 370px;
+}
+
+.codeExample{
+    height: 400px;
+}
+
+.code{
+    background-color: #1e3d59;
+    border-radius: 1%;
+    width: 700px;
+    height: 210px;
+}
+
+.textCode{
+    color:white;
+    padding-top:10px;
+    margin: 10px;
+}
+
+.python{
+    margin-top: 10px;
+}
+
+.me{
+    margin-top: 10px;
+}
+.me > p{
+    font-size: 18px;
+}
+
+.blockText > p{
+    margin-top: 10px;
+}
+
+ul {
+    padding-left: 20px;
+    margin-top: 3px;
+    margin-bottom: 7px;
+}
+
+li{
+    list-style-type: circle;
+}
+
+.blockText > h3{
+    font-size: 19px;
+}
+
+.template{
+    padding-top: 10px;
+}
+
+.template > h3{
+    padding: 5px 0 5px 0;
+}
+
+.template > ul  {
+    padding-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:#f5f0e1;
+}
+
+.hardSkills{
+    height: 130px;
 }
