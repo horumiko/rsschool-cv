@@ -1,85 +1,45 @@
-# Uladzislau Roslikau
-### Junior Frontend Developer
+# Curriculum vitae
 
+**Full Name:** Uladzislau Roslikau. 
+
+**Telegram:** @horumiko
+
+About Me
 ---
+Hey! My name is Ulad. I'm 18 y. o. I study in BSU and very like Web Development and IT. My main aim and my dream is to become CIO(Chief Information Officer). For startest, I must study my IT skills and my Managment skills.
 
-### Contact information:
-
-**E-mail:** uladzislau.rosgro@yandex.ru<br>
-**Telegram:** @horumiko<br>
-[LinkedIn](https://www.linkedin.com/in/uladzislau-roslikau-6316191b4/)<br>
-[Codewars](https://www.codewars.com/users/horumiko)<br>
-
+Soft-skills: 
 ---
+stress immunity, accountable, communicative, know how to listen.
 
-### Briefly About Myself:
-
-Hey, My name is Ulad. I'm from Minsk. I'm starting to study Web-development. Now, I'm a student in Belarussian State University at the Mechanics and Mathematics Faculty. <br>
-
-I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.<br>
-
+My Hard-skills:
 ---
+Basic C++, HTML, CSS, Git, Basic Business Competencies, Basic Product Management, Proficiency in Research and Analysis. 
 
-### Skills and Proficiency:
-- HTML5, CSS3
-- Python
-- C++
-- JavaScript Basics
-- Git, GitHub
-- VS Code, IntelliJ IDEA
-- Adobe Photoshop, Figma
-### Code example:
-### JavaScript:
-```javascript
-function createFunctions(n) {
-  var callbacks = [];
+**Examples:**
+  - C++: 
+      - https://pastebin.com/uS3eusSt
+      - https://pastebin.com/8iMUHqfy
+      - https://pastebin.com/hWrYYn2c
+<br>
+I am responsible for technical support in Sturtup Heart
 
-    function indexFunction(index){
-      return function(){
-        return index;
-      } 
-    }
-  
-  for (let i=0; i<n; i++) {
-    callbacks.push(indexFunction(i));
-  }
-  
-  return callbacks;
-}
-```
-### C++:
-```C++
-int FindOutlier(std::vector<int> arr)
-{
-    using namespace std;
-    int result;
-    vector<int> even, odd;
-    for(int i = 0; i < arr.size(); i++){
-        if(arr[i] % 2 == 0) even.push_back(arr[i]);
-        else odd.push_back(arr[i]);
-    }
-    if(even.size() == 1){
-        result = even[0];
-    }else result = odd[0];
-    return result;
-}
-```
-### Python:
-```Python
-def is_divisible_by_6(s):
-    #your code here
-    result = []
-    numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-    for i in numbers:
-        new_str = s.replace('*', i)
-        if int(new_str) % 6 == 0:
-            result.append(str(int(new_str)))
-    return result
-```
-### Courses:
-- RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
-### Languages:
-- English \- A2
-- German \- A2
-- Russian \- Native
-- Belarussian \- Native
+Education:
+---
+  **Coursera:**
+   - Основы разработки на C++: белый пояс
+   - Accounting and Finance for IT professionals
+   - Business Analytics and Digital Media
+   - Digital Transformations
+
+  **Udemy:**
+   - Product Managment - основы
+   - Agile Scrum
+   - Управление проектами и продуктами
+   
+  **English**
+   - Streamline(A2+)
+
+English:
+---
+I'm very like study foreign languages! In the lyceum(Mozyr State Regional Lyceum) I learned German, but now I am learning English(University and course Pre-Intermediate(A2+) in the language school Streamline).
