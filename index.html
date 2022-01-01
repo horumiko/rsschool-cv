@@ -4,10 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='style.css' rel='stylesheet'>
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <title>Curriculum vitae | Uladzislau Roslikau</title>
 </head>
 <body>
-   <h1>CV</h1> 
+    <header>
+        <h1>Curriculum vitae | Uladzislau Roslikau</h1>
+        <nav>
+            <ul>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#codeExample">Example</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class = "block_1">
+            <section class = "photo">
+                <figure>
+                    <p><img src="img/me.jpg" alt="my Photo" class="myPhoto" width="450px" height="200px"></p>
+                </figure>
+                <h2>Uladzislau Roslikau</h2>
+                <p>Junior Web Developer</p>
+                    <a href="https://www.linkedin.com/in/uladzislau-roslikau-6316191b4/"><img src="img/linkedin.png" alt="Linked In" width="32" style="padding-top: 5px;"></a>
+                    <a href="https://www.codewars.com/users/rosgro/"><img src="img/codewars.svg" alt="Code Wars" width="32"></a>
+            </section>
+            <section class="contacts">
+                <h3>Contacts:</h3>
+                <ul>
+                    <li>
+                        <p><a href="t.me/uladzislau_rosgro/">Telegram: @uladzislau_rosgro</a></p>
+                    </li>
+                    <li>
+                        <p>rosgro#6048</p>
+                    </li>
+                    <li>
+                        <p>rosgro.uladzislau@yandex.ru</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class = "block_2">
+                <section class="blockText me">
+                    <h2>It's Me!</h2>
+                    <hr>
+                    <p><b>Full Name: </b>Uladzislau Roslikau</p>
+                    <p><b>Age: </b>18</p>
+                    <p><b>Location: </b>Belarus, Minsk</p>
+                </section>
+            <section class = "blockText aboutMe" id="aboutMe">
+                <h2>About Me</h2>
+                <hr>
+                <p>Hey! My name is Ulad. I’m 18 y. o. I study in BSU and very like Web Development and IT. My main aim and my dream is to become CIO(Chief Information Officer). For startest, I must study my IT skills and my Managment skills.</p>   
+            </section> 
+            <section class="blockText softSkills" id="skills">
+                <h2>Soft-skills</h2>
+                <hr>
+                <ul>
+                    <li>stress immunity</li>
+                    <li>accountable</li>
+                    <li>communicative</li>
+                    <li>know how to listen</li>
+                </ul>
+            </section>
+            <section class="blockText hardSkills">
+                <h2>Hard-skills:</h2>
+                <hr>
+                <ul>
+                    <li>Basic C++</li>
+                    <li>HTML, CSS</li>
+                    <li>Git</li>
+                    <li>Basic Business Competencies, Basic Product Management, Proficiency in Research and Analysis.</li>
+                </ul>
+            </section>
+            <section class="blockText education" id="education">
+                <h2>Education:</h2>
+                <hr>
+                <section class="template">
+                    <h3>Coursera:</h3>
+                    <ul>
+                        <li><p>Основы разработки на C++: белый пояс</p></li>
+                        <li>Accounting and Finance for IT professionals</li>
+                        <li>Business Analytics and Digital Media</li>
+                        <li>Digital Transformations</li>
+                    </ul>
+                    <h3 style="padding-top: 10px;">Udemy:</h3>
+                    <ul>
+                        <li>Product Management - основы</li>
+                        <li>Agile Scrum</li>
+                        <li>Управление проектами и продуктами</li>
+                        <li>Digital Transformations</li>
+                    </ul>
+                    <h3 style="padding-top: 10px;">English:</h3>
+                    <ul>
+                        <li>Streamline(A2+)</li>
+                    </ul>
+                </section>
+                
+            </section>
+            <section class="blockText codeExample" id="codeExample">
+                <h2>Example:</h2>
+                <hr>
+                <section class = "python">
+                    <h3>Python</h3>
+                    <p>A masked number is a string that consists of digits and one asterisk (*) that should be replaced by exactly one digit. Given a masked number s, find all the possible options to replace the asterisk with a digit to produce an integer divisible by 6.</p>
+                    <blockquote class = "code">
+                        <pre><code class="python">
+def is_divisible_by_6(s):
+#your code here
+result = []
+numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+for i in numbers:
+    new_str = s.replace('*', i)
+    if int(new_str) % 6 == 0:
+        result.append(str(int(new_str)))
+return result
+                        </code></pre></blockquote>
+            </section>
+        </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <aside class="rs" style="padding-left: 15px;">
+            <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="rs" width="150"></a>
+        </aside>
+        <div class="footerInfo" style="padding-right: 15px;">
+            <p><a href="https://rs.school/js/">RS: https://rs.school/js/</a></p>
+            <p><a href="https://github.com/rosgro/">GitHub: https://github.com/rosgro/</a></p>
+            <p>designed by rosgro 2021©</p>
+        </div>
+    </footer>
 </body>
 </html>
