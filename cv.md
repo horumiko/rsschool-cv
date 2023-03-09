@@ -56,3 +56,70 @@ My Skills
 ### Excel/Google Sheets
 
 70%
+
+Education
+---------
+
+Where I gained my knowledge
+
+*   2022
+    
+    Certificate
+    
+    #### Product Management: Product Creation and Launch Course
+    
+    [MyMonday](https://mymonday.by/product-management-basic)
+    
+*   2022
+    
+    [Certificate](https://www.freecodecamp.org/certification/horumiko/javascript-algorithms-and-data-structures)
+    
+    #### JavaScript Algorithms and Data Structures
+    
+    [FreeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+    
+*   2021
+    
+    [A2 Certificate](https://www.efset.org/cert/NJySoE)
+    
+    #### English Pre-Intermediate Course
+    
+    [Streamline](https://str.by)
+    
+*   2020 - now
+    
+    Bachelor's degree
+    
+    #### Mathematics and Information Technology
+    
+    [Belarusian State University](https://bsu.by/), Belarus
+    
+
+Some facts about me
+-------------------
+
+Random numbers
+
+125
+
+katas on Codewars
+
+4
+
+languages I can speak
+
+\>2 years
+
+rowing and dances
+
+\>1 years
+
+experience in SMM
+
+
+Previous
+
+Next
+
+@horumiko | the rolling scopes school 2023
+-------------------------------------------------
